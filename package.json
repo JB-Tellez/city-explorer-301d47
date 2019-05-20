@@ -1,27 +1,19 @@
 {
-  "name": "city-explorer-301d47",
+  "name": "static-buildout",
   "version": "1.0.0",
-  "description": "301d47 Lab 7 Repo",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JB-Tellez/city-explorer-301d47.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JB-Tellez/city-explorer-301d47/issues"
-  },
-  "homepage": "https://github.com/JB-Tellez/city-explorer-301d47#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
-    "express": "^4.16.4",
-    "nodemon": "^1.19.0",
-    "superagent": "^5.0.5"
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "superagent": "^3.8.3"
   }
 }
